@@ -1,0 +1,54 @@
+.navBar{
+	background: #fff;
+    color: #000;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.topNav .navBar{
+    top: 0;
+}
+
+.rightNav .navBar{
+	right: 0;
+	width: 70px;
+	height: 100%;
+}
+
+.bottomNav .navBar{
+	bottom: 0;
+}
+.leftNav .navBar{
+	left: 0;
+	width: 70px;
+	height: 100%;
+}
+
+.rightNav .navBar h3{
+    /* FF3.5+ */
+    -moz-transform: rotate(90deg);
+    /* Opera 10.5 */
+    -o-transform: rotate(90deg);
+    /* Saf3.1+, Chrome */
+    -webkit-transform: rotate(90deg);
+    /*standard*/
+    transform: rotate(90deg);
+}
+
+.leftNav .navBar h3{
+    /* FF3.5+ */
+    -moz-transform: rotate(-90deg);
+    /* Opera 10.5 */
+    -o-transform: rotate(-90deg);
+    /* Saf3.1+, Chrome */
+    -webkit-transform: rotate(-90deg);
+    /*standard*/
+    transform: rotate(-90deg);
+}
