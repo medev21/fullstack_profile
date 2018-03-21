@@ -5,7 +5,7 @@ import Intro from "./components/introPage";
 class App extends Component {
 	render(){
 		return (
-			<div>
+			<div className="pageSections">
 				<Navbar />
 				<Intro />
 			</div>
