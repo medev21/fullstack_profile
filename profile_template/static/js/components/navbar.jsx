@@ -5,7 +5,8 @@ class Navbar extends Component {
 		return (
 
 			<div className="navFrame">
-		        <a href="" className="topNav">
+		        
+		        <a href="/" className="topNav">
 		          <div className="navBar"><h3>Marteen</h3></div>
 		        </a>
 		        <a href="" className="rightNav">
@@ -22,5 +23,6 @@ class Navbar extends Component {
 		);
 	}
 }
+
 
 export default Navbar;
