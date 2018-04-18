@@ -12,7 +12,7 @@ class Navbar extends Component {
 		        <a href="" className="rightNav">
 		          <div className="navBar"><h3>Profile</h3></div>
 		        </a>
-		        <a href="" className="bottomNav">
+		        <a href="/experience" className="bottomNav">
 		          <div className="navBar"><h3>Experience</h3></div>
 		        </a>
 		        <a href="" className="leftNav">
