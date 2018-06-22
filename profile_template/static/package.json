@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --progress -d --config webpack.config.js --watch",
     "start": "npm run open",
-    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/build\""
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234\""
   },
   "repository": {
     "type": "git",
@@ -46,6 +46,6 @@
     "webpack-cli": "^2.0.12"
   },
   "dependencies": {
-    "npm": "^5.7.1"
+    "npm": "^5.10.0"
   }
 }

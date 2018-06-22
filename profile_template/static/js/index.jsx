@@ -6,9 +6,8 @@ import '../css/universal.scss';
 import '../css/App.scss';
 
 ReactDOM.render(
-	<BrowserRouter>
+	
 		<App />
-	</BrowserRouter>
-	, 
+	,
 	document.getElementById("container")
 );
