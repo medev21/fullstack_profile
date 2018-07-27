@@ -20,6 +20,11 @@ const config = {
           loader: 'style-loader!css-loader!sass-loader' 
         }
 	  ]
-	}
+	},
+    devServer: {
+        historyApiFallback: true,
+        contentBase: './',
+        hot: true
+    }
 };
 module.exports = config;

@@ -6,7 +6,7 @@ import Profile from "./components/profilePage";
 import Contact from "./components/contactPage";
 //import { HashRouter, NavLink, Route } from 'react-router-dom';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
-// import { Link, Route, Switch } from 'react-router';
+// import { BrowserHi } from 'react-router';
 
 class App extends Component {
 	render(){
