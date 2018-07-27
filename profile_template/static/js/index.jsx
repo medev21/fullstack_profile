@@ -6,8 +6,7 @@ import '../css/universal.scss';
 import '../css/App.scss';
 
 ReactDOM.render(
-	<Router history={history}>
 		<App />
-	</Router>, 
+	, 
 	document.getElementById("container")
 );
