@@ -1,4 +1,8 @@
 const webpack = require('webpack');
+const CopyWebpackPlugin = require('copy-webpack-plugin')
+
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
 const config = {
     entry:  __dirname + '/js/index.jsx',
     output: {
@@ -21,10 +25,17 @@ const config = {
         }
 	  ]
 	},
+    plugins: [
+        new CopyWebpackPlugin([
+            { from: './index.html', to: './index.html' }
+        ])
+    ],
     devServer: {
-        historyApiFallback: true,
-        contentBase: './',
-        hot: true
+      contentBase: __dirname + '/dist',
+      port: 1234,
+      historyApiFallback: {
+            index: 'index.html'
+      }
     }
 };
 module.exports = config;
