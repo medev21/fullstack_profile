@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Experience extends Component {
+class Projects extends Component {
 	render(){
 		return(
 			<div className="introWrapper">
@@ -10,6 +10,6 @@ class Experience extends Component {
 	}
 }
 
-export default Experience;
+export default Projects;
 
 

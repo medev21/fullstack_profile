@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Navbar from "./components/navbar";
 import Intro from "./components/introPage";
-import Experience from "./components/experiencePage";
-import Profile from "./components/profilePage";
+import Projects from "./components/projectsPage";
+import Resume from "./components/resumePage";
 import Contact from "./components/contactPage";
 //import { HashRouter, NavLink, Route } from 'react-router-dom';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
@@ -16,8 +16,8 @@ class App extends Component {
 					<Navbar />
 					<div className="navContent">
 						<Route exact path="/" component={Intro}/>
-						<Route path="/experience" component={Experience}/>
-						<Route path="/profile" component={Profile}/>
+						<Route path="/projects" component={Projects}/>
+						<Route path="/resume" component={Resume}/>
 						<Route path="/contact" component={Contact}/>
 					</div>
 				</div>

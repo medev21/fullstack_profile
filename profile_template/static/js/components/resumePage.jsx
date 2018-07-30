@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Profile extends Component {
+class Resume extends Component {
 	render(){
 		return(
 			<div className="introWrapper">
@@ -10,4 +10,4 @@ class Profile extends Component {
 	}
 }
 
-export default Profile;
+export default Resume;
