@@ -4,60 +4,61 @@ import { Link } from "react-router-dom";
 class Navbar extends Component {
 
 
-	constructor(){
-		super();
+	constructor(props){
+		super(props);
 		this.state = {
 			profile: []
-		}
+		};
 	}
 
-	getExperience(){
+	getProfile(){
 		this.setState(
 			{
-				'experience': [
-					{
-						'company': 'Groundtruth',
-						'date': 'August 2016 - Present',
-						'jobTitle': 'Software Engineer'
-					},
-					{
-						'company': 'Learning Library TV',
-						'date': 'February 2016 - August 2016',
-						'jobTitle': 'Junior Developer'
-					},
-					{
-						'company': 'Smelter Service',
-						'date': 'August 2012 - October 2015',
-						'jobTitle': 'Plant Engineer'
-					}
-				],
-				'education': [
-					{
-						'school': 'Startup Institute',
-						'date': 'Fall 2015 Cohort',
-						'degree': 'Web Development Coursework'
-					},
-					{
-						'school': 'Tennessee Tech University',
-						'date': 'May 2012',
-						'degree': 'Bachelor of Science, Mechanical Engineering'
-					}
-				],
-				'skills': [
-					{
-						'Tools': 'HTML, CSS, Javascript, SQL, Python, Autocad, SolidWorks'
-					}
+				profile: [
+					{'experience': [
+						{
+							'company': 'Groundtruth',
+							'date': 'August 2016 - Present',
+							'jobTitle': 'Software Engineer'
+						},
+						{
+							'company': 'Learning Library TV',
+							'date': 'February 2016 - August 2016',
+							'jobTitle': 'Junior Developer'
+						},
+						{
+							'company': 'Smelter Service',
+							'date': 'August 2012 - October 2015',
+							'jobTitle': 'Plant Engineer'
+						}
+					]},
+					{'education': [
+						{
+							'school': 'Startup Institute',
+							'date': 'Fall 2015 Cohort',
+							'degree': 'Web Development Coursework'
+						},
+						{
+							'school': 'Tennessee Tech University',
+							'date': 'May 2012',
+							'degree': 'Bachelor of Science, Mechanical Engineering'
+						}
+					]},
+					{'skills': [
+						{
+							'Tools': 'HTML, CSS, Javascript, SQL, Python, Autocad, SolidWorks'
+						}
+					]}
 				]
 			}
 		);
 	}
 
 
-	componentWillMount(){
-		this.getExperience();
+	componentDidMount(){
+		this.getProfile();
+		console.log(this.state.profile);
 	}
-
-
 
 	render(){
 		return (
