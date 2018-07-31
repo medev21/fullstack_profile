@@ -11,7 +11,6 @@
     "watch": "webpack-dev-server --hot --progress --mode development",
     "start": "npm run open",
     "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234\""
-    
   },
   "repository": {
     "type": "git",
