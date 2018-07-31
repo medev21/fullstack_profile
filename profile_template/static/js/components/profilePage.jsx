@@ -1,13 +1,14 @@
 import React, { Component } from "react";
+import ProfileItem from "./profileItem"
 
 class Profile extends Component {
 
 	render(){
-		let experience;
 
-		// experience = this.props.experience
-
-		// console.log(experience);
+		let profile = this.props.location.profile.map((experience) => <li>{experience.experience}</li>);
+		// let profile = this.props.location.profile;
+		// console.log(this.props.location.profile);
+		console.log(profile);
 		return(
 			<div className="introWrapper">
 				<div className="experienceSection">
