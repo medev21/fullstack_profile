@@ -13,24 +13,30 @@ class Profile extends Component {
 
 		return(
 			<div>
-				<div className="introWrapper">{
-					experiences.map((experience, idx) => {
-						return(
-							<ExperienceItem key={idx} experience={experience} />
-						)
-					})
-				}
+				<div className="introWrapper">
+					<h4>experience</h4>
+					{
+						experiences.map((experience, idx) => {
+							return(
+								<ExperienceItem key={idx} experience={experience} />
+							)
+						})
+					}
 				</div>
 
-				<div className="introWrapper">{
-					educations.map((education, idx) => {
-						return(
-							<EducationItem key={idx} education={education} />
-						)
-					})
-				}</div>
+				<div className="introWrapper">
+					<h4>education</h4>
+					{
+						educations.map((education, idx) => {
+							return(
+								<EducationItem key={idx} education={education} />
+							)
+						})
+					}
+				</div>
 
 				<div className="introWrapper">
+					<h4>skills</h4>
 					{
 						skills.map((skills, idx) => {
 							return(
