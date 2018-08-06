@@ -4,6 +4,7 @@ import Intro from "./components/introPage";
 import Projects from "./components/projectsPage";
 import Profile from "./components/profilePage";
 import Contact from "./components/contactPage";
+import Kanban from "./components/kanbanPage";
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
 						<Route path="/projects" component={Projects}/>
 						<Route path="/profile" component={Profile}/>
 						<Route path="/contact" component={Contact}/>
+						<Route path="/projects/kanban_board" component={Kanban}/>
 					</div>
 				</div>
 			</Router>
