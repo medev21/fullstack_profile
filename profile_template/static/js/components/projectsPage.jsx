@@ -1,13 +1,15 @@
 import React, { Component } from "react";
-import { Route, Link } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 import Kanban from "./kanbanPage";
+import Worldcups from "./worldcupsPage"
+import Commcx from "./commcxPage"
 
 class Projects extends Component {
 	render(){
 		const { match } = this.props
 
-		console.log(match.path);
-		console.log(match.url);
+		// console.log(match.path);
+		// console.log(match.url);
 		return(
 			<div>
 			<div className="introWrapper">
@@ -35,7 +37,9 @@ class Projects extends Component {
 
 			</div>
 
-			<Route path={`${match.url}/:projectId`} component={Kanban}/>
+			<Route path={`${match.url}/kanban_board`} component={Kanban}/>
+			<Route path={`${match.url}/worldcups`} component={Worldcups}/>
+			<Route path={`${match.url}/commcx`} component={Commcx}/>
 			<Route exact path={match.url}/>
 			</div>
 		)
