@@ -31,6 +31,7 @@ const config = {
         ])
     ],
     devServer: {
+      publicPath: '/',
       contentBase: __dirname + '/dist',
       port: 1234,
       historyApiFallback: {

@@ -18,7 +18,6 @@ class App extends Component {
 						<Route path="/projects" component={Projects}/>
 						<Route path="/profile" component={Profile}/>
 						<Route path="/contact" component={Contact}/>
-						<Route path="/projects/kanban_board" component={Kanban}/>
 					</div>
 				</div>
 			</Router>

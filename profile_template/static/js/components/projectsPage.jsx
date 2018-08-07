@@ -9,6 +9,7 @@ class Projects extends Component {
 		console.log(match.path);
 		console.log(match.url);
 		return(
+			<div>
 			<div className="introWrapper">
 				<h3>Projects</h3>
 				<div>
@@ -32,6 +33,10 @@ class Projects extends Component {
 					</Link>
 				</div>
 
+			</div>
+
+			<Route path={`${match.url}/:projectId`} component={Kanban}/>
+			<Route exact path={match.url}/>
 			</div>
 		)
 	}
