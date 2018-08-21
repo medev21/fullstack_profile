@@ -12,7 +12,7 @@ class Profile extends Component {
 		const skills = this.props.location.state.skills;
 
 		return(
-			<div>
+			<div className="profileWrapper">
 				<div className="introWrapper">
 					<h4>experience</h4>
 					{
