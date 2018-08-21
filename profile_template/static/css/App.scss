@@ -1,9 +1,10 @@
 #container{
-    // height: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
     .pageSections{
-        // height: 100%;
+        height: 100%;
         .navFrame{
-            // height: inherit;
+            height: inherit;
             .navBar{
                 background: #fff;
                 color: #000;
@@ -72,6 +73,32 @@
             top: 40%;
             width: 50%;
             left: 26%;
+
+            .contactWrapper{
+                .contactHeader{
+                    h2 {
+                        margin-bottom: 40px;
+                        font-weight: 700;
+                    }
+                    p {
+                        margin-bottom: 50px;
+                        font-size: 18px;
+                    }
+                }
+
+                .socialMedia{
+                    ul {
+                        list-style: none;
+                        padding: 0;
+                        // margin: 0;
+                        display: flex;
+
+                        li{
+                            margin-right: 40px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

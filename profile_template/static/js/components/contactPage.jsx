@@ -4,7 +4,7 @@ import FontAwesome from "react-fontawesome";
 class Contact extends Component {
 	render(){
 		return(
-			<div className="introWrapper">
+			<div className="introWrapper contactWrapper">
 				<div className="contactHeader">
 					<h2>Let's stay in touch</h2>
 					<p>I hope you learned a bit about me.  Need a developer for you projects?  Feel free to say Hi!</p>
@@ -12,9 +12,9 @@ class Contact extends Component {
 
 				<div className="socialMedia">
 					<ul>
-						<li><FontAwesome name='envelope' size="2x"/><a href="mailto:martindevelops21@gmail.com?subject=Comments" title="Email me!"></a></li>
-						<li><FontAwesome name='linkedin' size="2x"/></li>
-						<li><FontAwesome name='github' size="2x"/></li>
+						<li><a href="mailto:martindevelops21@gmail.com?subject=Comments" title="Email me!"><FontAwesome name='envelope' size="4x"/></a></li>
+						<li><a href="https://www.linkedin.com/in/medev21/" target="_blank"><FontAwesome name='linkedin' size="4x"/></a></li>
+						<li><a href="https://github.com/medev21" target="_blank"><FontAwesome name='github' size="4x"/></a></li>
 					</ul>
 				</div>
 			</div>
