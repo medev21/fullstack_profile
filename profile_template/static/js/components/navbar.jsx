@@ -9,36 +9,36 @@ class Navbar extends Component {
 		this.state = {
 			experience: [
 				{
-					'company': 'company A',
+					'company': 'Groundtruth',
 					'date': 'August 2016 - Present',
-					'jobTitle': 'salesman'
+					'jobTitle': 'Software Engineer'
 				},
 				{
-					'company': 'company B',
+					'company': 'Learning Library TV',
 					'date': 'February 2016 - August 2016',
-					'jobTitle': 'Developer'
+					'jobTitle': 'Junior Developer'
 				},
 				{
-					'company': 'company C',
+					'company': 'Smelter Service',
 					'date': 'August 2012 - October 2015',
-					'jobTitle': 'clerk'
+					'jobTitle': 'Plant Engineer'
 				}
 			],
 			education: [
 				{
-					'school': 'shcool A',
-					'date': 'Fall 2015',
-					'degree': 'mathematics'
+					'school': 'Nashville State Community College',
+					'date': ' May 2015',
+					'degree': 'Non Degree Computer Science'
 				},
 				{
-					'school': 'school B',
-					'date': 'May 2008',
-					'degree': 'business'
+					'school': 'Tennessee Tech University',
+					'date': 'May 2012',
+					'degree': 'Bachelors of Science in Mechanical Engineering'
 				}
 			],
 			skills: [
 				{
-					'tools': 'HTML, CSS, Javascript, SQL, Python'
+					'tools': 'CSS, Git, HTML, JavaScript, SQL, Python, Perl, Ruby, Scala, AutoCAD, SolidWorks, AWS(EC2/S3)'
 				}
 			]
 		};
@@ -49,7 +49,7 @@ class Navbar extends Component {
 
 			<div className="navFrame">
 				<Link to="/">
-					<div className="topNav"><div className="navBar"><h3>Marteen</h3></div></div>
+					<div className="topNav"><div className="navBar"><h3>Martin Benavides</h3></div></div>
 				</Link>
 
 				<Link to="/projects">

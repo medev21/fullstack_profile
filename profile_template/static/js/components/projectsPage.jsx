@@ -8,8 +8,6 @@ class Projects extends Component {
 	render(){
 		const { match } = this.props
 
-		// console.log(match.path);
-		// console.log(match.url);
 		return(
 			<div>
 				<div className="introWrapper">
