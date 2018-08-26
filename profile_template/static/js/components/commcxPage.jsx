@@ -7,6 +7,7 @@ class Commcx extends Component {
 		return(
 			<div className="introWrapper">
 				<h2>Commcx</h2>
+				<a onClick={this.props.history.goBack}>Back</a>
 			</div>
 		)
 

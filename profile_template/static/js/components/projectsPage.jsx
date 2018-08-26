@@ -9,7 +9,7 @@ class Projects extends Component {
 
 	render(){
 		const url = this.props.match.url;
-
+		console.log(this.props);
 		return(
 			<div>
 				<div id="projectsNavbar" className="introWrapper" >
