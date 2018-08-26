@@ -5,9 +5,26 @@ import Worldcups from "./worldcupsPage"
 import Commcx from "./commcxPage"
 
 class Projects extends Component {
+
+	constructor () {
+		super();
+		this.state = {
+		  isNavbarHidden: false
+		};
+	}
+
+	componentDidMount () {
+		const currentRoute = this.props.location;
+		if (currentRoute != '/projects') {
+			this.setState({ isNavbarHidden: true });
+		}
+	} // end of componentDidMount
+
+
 	render(){
 		const { match } = this.props
-
+		const { isNavbarHidden } = this.state;
+		console.log(isNavbarHidden);
 		return(
 			<div>
 				<div className="introWrapper">
