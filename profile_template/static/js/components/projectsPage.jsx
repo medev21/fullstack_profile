@@ -7,51 +7,13 @@ import Commcx from "./commcxPage"
 
 class Projects extends Component {
 
-	constructor (props) {
-		super(props);
-		this.state = {
-		  hideNavbar: false
-		};
-
-		this.handleChange = this.handleChange.bind(this);
-
-	}
-
-	handleChange(event){
-		const { updateNavBarState } = this.props;
-		// this.setState({ hideNavbar: true });	
-		updateNavBarState(true);
-	} 
-
-
 	render(){
 		const url = this.props.match.url;
-		const style = this.state.hideNavbar ? {display: 'none'} : {};
 
 		return(
 			<div>
-				<div className="introWrapper projectsNavbar" style={style}>
-					<h3>Projects</h3>
-					<div>
-						<Link to={`${url}/kanban_board`} onClick={this.handleChange}>
-							<div><h4>kanban board</h4></div>
-							<div><p>a trello clone app</p></div>
-						</Link>
-					</div>
-
-					<div>
-						<Link to={`${url}/worldcups`} onClick={this.handleChange}>
-							<div><h4>worlcups</h4></div>
-							<div><p>a list of all the worlcups</p></div>
-						</Link>
-					</div>
-
-					<div>
-						<Link to={`${url}/commcx`} onClick={this.handleChange}>
-							<div><h4>commcx</h4></div>
-							<div><p>online learning platform</p></div>
-						</Link>
-					</div>
+				<div id="projectsNavbar" className="introWrapper" >
+					{this.props.location.pathname === url ? <ProjectNavbar url={url}/> : null}
 
 				</div>
 
@@ -65,5 +27,3 @@ class Projects extends Component {
 }
 
 export default Projects;
-
-

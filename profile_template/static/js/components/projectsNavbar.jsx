@@ -35,11 +35,6 @@ class ProjectNavbar extends Component {
 					</div>
 
 				</div>
-
-				<Route path={`${url}/kanban_board`} component={Kanban}/>
-				<Route path={`${url}/worldcups`} component={Worldcups}/>
-				<Route path={`${url}/commcx`} component={Commcx}/>
-				<Route exact path={url}/>
 			</div>
 		)
 	}

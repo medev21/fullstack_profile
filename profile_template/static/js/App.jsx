@@ -50,9 +50,16 @@ class App extends Component {
 
 		};
 
-		// this.handleChangeProjectNav = this.handleChangeProjectNav.bind(this);
+		this.handleChangeProjectNav = this.handleChangeProjectNav.bind(this);
 
 	}
+
+
+	handleChangeProjectNav(e){
+		document.getElementById("projectsNavbar").style.display = "none";
+		// console.log('hello world')
+	}
+
 	render(){
 		return (
 			<Router>
@@ -60,7 +67,7 @@ class App extends Component {
 					
 					<div className="navContent">
 						<Route exact path="/" component={Intro}/>
-						<Route path="/projects" render={() => <Projects />} />
+						<Route path="/projects" render={(props) => <Projects projectNav={this.handleChangeProjectNav} {...props}/>} />
 						<Route path="/profile" render={() => <Profile profile={{experience: this.state.experience, education: this.state.education, skills: this.state.skills}} />} />
 						<Route path="/contact" component={Contact}/>
 					</div>

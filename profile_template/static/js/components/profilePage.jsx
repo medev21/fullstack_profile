@@ -11,8 +11,6 @@ class Profile extends Component {
 		const educations = this.props.profile.education;
 		const skills = this.props.profile.skills;
 
-
-
 		return(
 			<div className="profileWrapper">
 
