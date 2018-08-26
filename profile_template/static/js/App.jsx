@@ -7,7 +7,52 @@ import Contact from "./components/contactPage";
 import Kanban from "./components/kanbanPage";
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
+
 class App extends Component {
+	constructor (props) {
+		super(props);
+		this.state = {
+		  hideProjectsNavbar: false,
+		  experience: [
+				{
+					'company': 'Groundtruth',
+					'date': 'August 2016 - Present',
+					'jobTitle': 'Software Engineer'
+				},
+				{
+					'company': 'Learning Library TV',
+					'date': 'February 2016 - August 2016',
+					'jobTitle': 'Junior Developer'
+				},
+				{
+					'company': 'Smelter Service',
+					'date': 'August 2012 - October 2015',
+					'jobTitle': 'Plant Engineer'
+				}
+			],
+			education: [
+				{
+					'school': 'Nashville State Community College',
+					'date': ' May 2015',
+					'degree': 'Non Degree Computer Science'
+				},
+				{
+					'school': 'Tennessee Tech University',
+					'date': 'May 2012',
+					'degree': 'Bachelors of Science in Mechanical Engineering'
+				}
+			],
+			skills: [
+				{
+					'tools': 'CSS, Git, HTML, JavaScript, SQL, Python, Perl, Ruby, Scala, AutoCAD, SolidWorks, AWS(EC2/S3)'
+				}
+			],
+
+		};
+
+		// this.handleChangeProjectNav = this.handleChangeProjectNav.bind(this);
+
+	}
 	render(){
 		return (
 			<Router>
@@ -15,8 +60,8 @@ class App extends Component {
 					
 					<div className="navContent">
 						<Route exact path="/" component={Intro}/>
-						<Route path="/projects" component={Projects}/>
-						<Route path="/profile" component={Profile}/>
+						<Route path="/projects" render={() => <Projects />} />
+						<Route path="/profile" render={() => <Profile profile={{experience: this.state.experience, education: this.state.education, skills: this.state.skills}} />} />
 						<Route path="/contact" component={Contact}/>
 					</div>
 					<Navbar />

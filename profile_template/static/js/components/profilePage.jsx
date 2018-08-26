@@ -7,9 +7,11 @@ class Profile extends Component {
 
 	render(){
 
-		const experiences = this.props.location.state.experience;
-		const educations = this.props.location.state.education;
-		const skills = this.props.location.state.skills;
+		const experiences = this.props.profile.experience;
+		const educations = this.props.profile.education;
+		const skills = this.props.profile.skills;
+
+
 
 		return(
 			<div className="profileWrapper">
