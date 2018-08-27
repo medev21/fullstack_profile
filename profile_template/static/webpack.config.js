@@ -8,23 +8,36 @@ const config = {
     output: {
         path: __dirname + '/dist',
         filename: 'bundle.js',
+        // publicPath: '/projects/'
     },
     resolve: {
         extensions: ['.js', '.jsx', '.css']
     },
     module: {
-	  rules: [
-	    {
-	      test: /\.jsx?/,
-	      exclude: /node_modules/,
-	      use: 'babel-loader'
-	    },
+  	  rules: [
+  	    {
+  	      test: /\.jsx?/,
+  	      exclude: /node_modules/,
+  	      use: 'babel-loader'
+  	    },
         {
           test: /\.scss?/,
           loader: 'style-loader!css-loader!sass-loader' 
+        },
+        {
+          test: /\.(png|jpg|gif)$/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: '/images/[name]-[hash:8].[ext]'
+                // name: 'images/[name].[ext]'
+              }
+            }
+          ]
         }
-	  ]
-	},
+  	  ]
+  	},
     plugins: [
         new CopyWebpackPlugin([
             { from: './index.html', to: './index.html' }
