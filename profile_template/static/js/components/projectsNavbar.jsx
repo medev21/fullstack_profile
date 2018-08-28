@@ -14,6 +14,13 @@ class ProjectNavbar extends Component {
 				<div className="introWrapper projectsNavbar">
 					<h3>Projects</h3>
 					<div>
+						<Link to={`${url}/commcx`}>
+							<div><h4>commcx</h4></div>
+							<div><p>online learning platform</p></div>
+						</Link>
+					</div>
+					
+					<div>
 						<Link to={`${url}/kanban_board`}>
 							<div><h4>kanban board</h4></div>
 							<div><p>a trello clone app</p></div>
@@ -24,13 +31,6 @@ class ProjectNavbar extends Component {
 						<Link to={`${url}/worldcups`}>
 							<div><h4>worlcups</h4></div>
 							<div><p>a list of all the worlcups</p></div>
-						</Link>
-					</div>
-
-					<div>
-						<Link to={`${url}/commcx`}>
-							<div><h4>commcx</h4></div>
-							<div><p>online learning platform</p></div>
 						</Link>
 					</div>
 

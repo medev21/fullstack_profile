@@ -11,8 +11,8 @@ class Projects extends Component {
 		const url = this.props.match.url;
 		console.log(this.props);
 		return(
-			<div>
-				<div id="projectsNavbar" className="introWrapper" >
+			<div className="projectWrapper">
+				<div className="projectsNavbar" >
 					{this.props.location.pathname === url ? <ProjectNavbar url={url}/> : null}
 
 				</div>
