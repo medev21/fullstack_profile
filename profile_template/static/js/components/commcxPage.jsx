@@ -3,10 +3,13 @@ import commcx0 from '../../images/commcx0.png';
 import commcx1 from '../../images/commcx1.png';
 import commcx2 from '../../images/commcx2.png';
 import commcx3 from '../../images/commcx3.png';
+import Images from './imagesComponent';
 
 class Commcx extends Component {
 
 	render(){
+
+		let images = [commcx0, commcx1, commcx2, commcx3]
 
 		return(
 			<div className="projectSection">
@@ -18,12 +21,8 @@ class Commcx extends Component {
 
 					<a onClick={this.props.history.goBack}>Back</a>
 				</div>
-				<div className="imageList">
-					<img src={commcx0} />
-					<img src={commcx1} />
-					<img src={commcx2} />
-					<img src={commcx3} />
-				</div>
+
+				<Images images={images} />
 
 			</div>
 		)
