@@ -19,29 +19,35 @@ class ProjectNavbar extends Component {
 					<ul>
 						<li>
 							<div className="projectCard">
-								<Link to={`${url}/commcx`}>
-									<div className="imgBox" style={{backgroundImage: `url(${commcxImg})`}}></div>
-									<div><h4>commcx</h4></div>
-								</Link>
-								<div><p>online learning platform</p></div>
+								<div className="projectImg">
+									<Link to={`${url}/commcx`}>
+										<div className="imgBox" style={{backgroundImage: `url(${commcxImg})`}}></div>
+										<div><h4>commcx</h4></div>
+									</Link>
+								</div>
+								<div className="projectDesc"><p>online learning platform</p></div>
 							</div>
 						</li>
 						<li>
 							<div className="projectCard">
-								<Link to={`${url}/kanban_board`}>
-									<div className="imgBox" style={{backgroundImage: `url(${kanbanImg})`}}></div>
-									<div><h4>kanban board</h4></div>
-								</Link>
-								<div><p>a trello clone app</p></div>
+								<div className="projectImg">
+									<Link to={`${url}/kanban_board`}>
+										<div className="imgBox" style={{backgroundImage: `url(${kanbanImg})`}}></div>
+										<div><h4>kanban board</h4></div>
+									</Link>
+								</div>
+								<div className="projectDesc"><p>a trello clone app</p></div>
 							</div>
 						</li>
 						<li>
 							<div className="projectCard">
-								<Link to={`${url}/worldcups`}>
-									<div className="imgBox" style={{backgroundImage: `url(${worldcupImg})`}}></div>
-									<div><h4>worlcups</h4></div>
-								</Link>
-								<div><p>a list of all the worlcups</p></div>
+								<div className="projectImg">
+									<Link to={`${url}/worldcups`}>
+										<div className="imgBox" style={{backgroundImage: `url(${worldcupImg})`}}></div>
+										<div><h4>worlcups</h4></div>
+									</Link>
+								</div>
+								<div className="projectDesc"><p>a list of all the worlcups</p></div>
 							</div>
 						</li>
 					</ul>

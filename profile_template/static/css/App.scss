@@ -125,7 +125,7 @@
             .projectWrapper{
                 .projectsNavbar{
                     overflow: auto;
-                    max-width: 660px;
+                    max-width: 810px;
                     margin: 0 auto 0;
 
                     h2 {margin-bottom: 30px;}
@@ -135,19 +135,27 @@
 
                         div.projectCard{
                             text-align: center;
-                            a{
-                                div.imgBox{
-                                    height: 250px;
-                                    width: 200px;
-                                    background-position: center;
-                                    background-repeat: no-repeat;
-                                    background-size: cover;
-                                    filter: grayscale(100%);
-                                }
-                                div.imgBox:hover{
-                                    filter: none;
+                            
+                            .projectImg{
+                                filter: grayscale(100%);
+                                a{
+                                    div.imgBox{
+                                        height: 250px;
+                                        width: 250px;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        
+                                    }
+                                    
                                 }
                             }
+
+                            div.projectImg:hover{
+                                filter: none;
+                            }
+
+                            div.projectDesc p{ font-size: 14px;}
 
                         }
                     }
