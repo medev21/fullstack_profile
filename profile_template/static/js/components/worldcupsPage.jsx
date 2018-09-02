@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import worldcup1 from '../../images/WorldcupSite1.png';
-import worldcup2 from '../../images/WorldcupSite2.png';
-import worldcup3 from '../../images/WorldcupSite3.png';
-import worldcup4 from '../../images/WorldcupSite4.png';
+import worldcup1 from '../../images/worldcup1.png';
+import worldcup2 from '../../images/worldcup2.png';
+import worldcup3 from '../../images/worldcup3.png';
+import worldcup4 from '../../images/worldcup4.png';
 import Images from './imagesComponent';
 
 class Worldcups extends Component {

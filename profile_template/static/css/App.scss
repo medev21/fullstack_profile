@@ -1,6 +1,6 @@
 #container{
     // height: 100%;
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
     .pageSections{
         // height: 100%;
         .navFrame{
@@ -77,14 +77,21 @@
             left: 10%;
             right: 10%;
 
+            .defaultWrapper{
+                max-width: 800px;
+                margin: 100px auto 0;
+            }
+
             .homeWrapper{
                 h2{
                     font-weight: 700;
                     margin-bottom: 20px;
                     line-height: 45px;
+                    font-size: 28px;
                 }
                 p{
                     font-size: 20px;
+                    margin-bottom: 30px;
                 }
             }
 
@@ -116,7 +123,40 @@
             }
 
             .projectWrapper{
-                .projectsNavbar{}
+                .projectsNavbar{
+                    overflow: auto;
+                    max-width: 660px;
+                    margin: 0 auto 0;
+
+                    h2 {margin-bottom: 30px;}
+                    ul li {
+                        float: left;
+                        margin-right: 30px;
+
+                        div.projectCard{
+                            text-align: center;
+                            a{
+                                div.imgBox{
+                                    height: 250px;
+                                    width: 200px;
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    filter: grayscale(100%);
+                                }
+                                div.imgBox:hover{
+                                    filter: none;
+                                }
+                            }
+
+                        }
+                    }
+
+                    ul li:last-child{margin-right: 0;}
+
+                    .projectContainer{
+                    }
+                }
 
                 .projectSection{
                     width: 1000px;

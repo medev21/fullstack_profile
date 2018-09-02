@@ -1,8 +1,8 @@
 import React, { Component} from "react";
-import kanban1 from '../../images/KanbanCard1.png';
-import kanban2 from '../../images/KanbanCard2.png';
-import kanban3 from '../../images/KanbanCard3.png';
-import kanban4 from '../../images/KanbanCard4.png';
+import kanban1 from '../../images/kanban1.png';
+import kanban2 from '../../images/kanban2.png';
+import kanban3 from '../../images/kanban3.png';
+import kanban4 from '../../images/kanban4.png';
 import Images from './imagesComponent';
 
 class Kanban extends Component {

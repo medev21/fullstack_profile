@@ -4,7 +4,7 @@ import FontAwesome from "react-fontawesome";
 class Contact extends Component {
 	render(){
 		return(
-			<div className="introWrapper contactWrapper">
+			<div className="defaultWrapper contactWrapper">
 				<div className="contactHeader">
 					<h2>Let's stay in touch</h2>
 					<p>I hope you learned a bit about me.  Need a developer for you projects?  Feel free to say Hi!</p>

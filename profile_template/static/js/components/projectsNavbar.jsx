@@ -3,6 +3,9 @@ import { Switch, Route, Link } from "react-router-dom";
 import Kanban from "./kanbanPage";
 import Worldcups from "./worldcupsPage"
 import Commcx from "./commcxPage"
+import commcxImg from "../../images/commcx2.png"
+import kanbanImg from "../../images/kanban0.png"
+import worldcupImg from "../../images/worldcup0.png"
 
 class ProjectNavbar extends Component {
 
@@ -12,28 +15,36 @@ class ProjectNavbar extends Component {
 		return(
 			<div>
 				<div className="introWrapper projectsNavbar">
-					<h3>Projects</h3>
-					<div>
-						<Link to={`${url}/commcx`}>
-							<div><h4>commcx</h4></div>
-							<div><p>online learning platform</p></div>
-						</Link>
-					</div>
-					
-					<div>
-						<Link to={`${url}/kanban_board`}>
-							<div><h4>kanban board</h4></div>
-							<div><p>a trello clone app</p></div>
-						</Link>
-					</div>
-
-					<div>
-						<Link to={`${url}/worldcups`}>
-							<div><h4>worlcups</h4></div>
-							<div><p>a list of all the worlcups</p></div>
-						</Link>
-					</div>
-
+					<h2>Projects</h2>
+					<ul>
+						<li>
+							<div className="projectCard">
+								<Link to={`${url}/commcx`}>
+									<div className="imgBox" style={{backgroundImage: `url(${commcxImg})`}}></div>
+									<div><h4>commcx</h4></div>
+								</Link>
+								<div><p>online learning platform</p></div>
+							</div>
+						</li>
+						<li>
+							<div className="projectCard">
+								<Link to={`${url}/kanban_board`}>
+									<div className="imgBox" style={{backgroundImage: `url(${kanbanImg})`}}></div>
+									<div><h4>kanban board</h4></div>
+								</Link>
+								<div><p>a trello clone app</p></div>
+							</div>
+						</li>
+						<li>
+							<div className="projectCard">
+								<Link to={`${url}/worldcups`}>
+									<div className="imgBox" style={{backgroundImage: `url(${worldcupImg})`}}></div>
+									<div><h4>worlcups</h4></div>
+								</Link>
+								<div><p>a list of all the worlcups</p></div>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		)
