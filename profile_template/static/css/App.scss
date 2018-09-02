@@ -1,10 +1,6 @@
 #container{
-    // height: 100%;
-    // font-family: 'Roboto', sans-serif;
     .pageSections{
-        // height: 100%;
         .navFrame{
-            // height: inherit;
             position: relative;
             z-index: 1000;
             .navBar{
@@ -70,7 +66,7 @@
             }       
         }
 
-        .navContent{
+        .navContent {
             position: absolute;
             top: 20%;
             // width: 50%;
@@ -135,13 +131,14 @@
             .projectWrapper{
                 .projectsNavbar{
                     overflow: auto;
-                    max-width: 810px;
+                    // max-width: 810px;
                     margin: 0 auto 0;
 
                     h2 {margin-bottom: 30px;}
                     ul li {
                         float: left;
                         margin-right: 30px;
+                        margin-bottom: 30px;
 
                         div.projectCard{
                             text-align: center;
@@ -234,4 +231,55 @@
             }
         }
     }
+}
+
+// responsive
+@media screen and (min-width: 1020px){
+    #container{
+        .pageSections{
+            .navContent {
+                .projectWrapper{
+                    .projectsNavbar{
+                        max-width: 810px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1019px) and (min-width: 700px){
+    #container{
+        .pageSections{
+            .navContent{
+                .projectWrapper{
+                    .projectsNavbar{
+                        max-width: 530px;
+                        margin-bottom: 100px;
+                        ul li:nth-child(2){margin-right: 0;}
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:699px) and (min-width: 500px){
+    #container{
+        .pageSections{
+            .navContent{
+                .projectWrapper{
+                    .projectsNavbar{
+                        max-width: 250px;
+                        margin-bottom: 100px;
+                        ul li {margin-right: 0;}
+                    }
+                }
+            }
+        }
+    }
+}
+
+//mobile
+@media screen and (max-width:500px){
+
 }
