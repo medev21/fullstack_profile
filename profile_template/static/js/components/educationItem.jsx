@@ -8,6 +8,7 @@ class EducationItem extends Component {
 				<li key={this.props.education.date}>{this.props.education.date}</li>
 				<li key={this.props.education.degree}>{this.props.education.degree}</li>
 			</ul>
+
 		)
 	}
 }

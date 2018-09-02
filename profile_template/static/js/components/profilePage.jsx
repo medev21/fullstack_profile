@@ -14,39 +14,53 @@ class Profile extends Component {
 		return(
 			<div className="profileWrapper">
 
-				<h2>Martin Benavides</h2>
+				{/*<h2>Martin Benavides</h2>*/}
+
 				<div className="profileContainer">
 					<div className="experienceSection section">
-						<h4>experience</h4>
-						{
-							experiences.map((experience, idx) => {
-								return(
-									<ExperienceItem key={idx} experience={experience} />
-								)
-							})
-						}
+						<div className="profileHeader">
+							<h4>experience</h4>
+						</div>
+						<div className="profileDesc">
+							{
+								experiences.map((experience, idx) => {
+									return(
+										<ExperienceItem key={idx} experience={experience} />
+									)
+								})
+							}
+						</div>
+						
 					</div>
 
 					<div className="educationSection section">
-						<h4>education</h4>
-						{
-							educations.map((education, idx) => {
-								return(
-									<EducationItem key={idx} education={education} />
-								)
-							})
-						}
+						<div className="profileHeader">
+							<h4>education</h4>
+						</div>
+						<div className="profileDesc">
+							{
+								educations.map((education, idx) => {
+									return(
+										<EducationItem key={idx} education={education} />
+									)
+								})
+							}
+						</div>
 					</div>
 
 					<div className="skillsSection section">
-						<h4>skills</h4>
-						{
-							skills.map((skills, idx) => {
-								return(
-									<SkillsItem key={idx} skills={skills} />
-								)
-							})
-						}
+						<div className="profileHeader">
+							<h4>skills</h4>
+						</div>
+						<div className="profileDesc">
+							{
+								skills.map((skills, idx) => {
+									return(
+										<SkillsItem key={idx} skills={skills} />
+									)
+								})
+							}
+						</div>
 					</div>
 				</div>
 			</div>
