@@ -52,8 +52,6 @@ class App extends Component {
 		};
 
 		this.handleChangeProjectNav = this.handleChangeProjectNav.bind(this);
-		// this.handleToggleClick = this.handleToggleClick.bind(this);
-
 	}
 
 	handleToggleClick(e){
@@ -78,7 +76,7 @@ class App extends Component {
 						<Route path="/profile" render={() => <Profile profile={{experience: this.state.experience, education: this.state.education, skills: this.state.skills}} />} />
 						<Route path="/contact" component={Contact}/>
 					</div>
-					<Navbar onClick={this.handleToggleClick.bind(this)}/>
+					<Navbar onClick={this.handleToggleClick.bind(this)} iconCondition={this.state.mobileIconActive}/>
 				</div>
 			</Router>
 		);
