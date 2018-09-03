@@ -66,6 +66,8 @@
             }       
         }
 
+        .mobileNavFrame{display: none;}
+
         .navContent {
             position: absolute;
             top: 20%;
@@ -332,5 +334,99 @@
 
 //mobile
 @media screen and (max-width:599px){
+
+    #container{
+        .pageSections{
+            .navFrame{ display: none;}
+
+                .navbarContainer{
+                    .mobileNavFrame{
+                        display: block;
+                        position: relative;
+                        z-index: 1000;
+                        .navBar{
+                            background: #fff;
+                            color: #000;
+                            height: 70px;
+                            width: 100%;
+                            text-align: center;
+                            line-height: 70px;
+                            position: fixed;
+                            display: flex;
+                            justify-content: center;
+                            align-content: center;
+                            flex-direction: column;
+                        }
+
+                        .topNav{
+                            .navBar{top: 0;}
+                        }
+
+                        .rightNav{
+                            .navBar{
+                                right: 0;
+                                width: 70px;
+                                height: 100%;
+                            }
+
+                            h3{
+                                /* FF3.5+ */
+                                -moz-transform: rotate(90deg);
+                                /* Opera 10.5 */
+                                -o-transform: rotate(90deg);
+                                /* Saf3.1+, Chrome */
+                                -webkit-transform: rotate(90deg);
+                                /*standard*/
+                                transform: rotate(90deg);
+                            }
+                        }
+
+                        .bottomNav{
+                            .navBar{
+                                bottom: 0;
+                            }
+                        }
+
+                        .leftNav{
+                            .navBar{
+                                left: 0;
+                                width: 70px;
+                                height: 100%; 
+                            }
+
+                            h3{
+                                /* FF3.5+ */
+                                -moz-transform: rotate(-90deg);
+                                /* Opera 10.5 */
+                                -o-transform: rotate(-90deg);
+                                /* Saf3.1+, Chrome */
+                                -webkit-transform: rotate(-90deg);
+                                /*standard*/
+                                transform: rotate(-90deg);
+                            }
+                        } 
+                    }
+            }
+            // .navContent{
+            //     .defaultWrapper{
+            //         max-width: 400px;
+            //         margin-top: 50px;
+            //     }
+            //     .homeWrapper{
+            //         h2{
+            //             line-height: 40px;
+            //             font-size: 24px;
+            //         }
+            //     }
+            //     .projectWrapper{
+            //         .projectsNavbar{
+            //             max-width: 250px;
+            //             margin-bottom: 100px;
+            //             ul li {margin-right: 0;}
+            //         }
+            //     }
+            // }
+        }
+    }
 
 }
