@@ -13,6 +13,7 @@ class App extends Component {
 		super(props);
 		this.state = {
 		  hideProjectsNavbar: false,
+		  mobileIconActive: true,
 		  experience: [
 				{
 					'company': 'Groundtruth',
@@ -51,7 +52,12 @@ class App extends Component {
 		};
 
 		this.handleChangeProjectNav = this.handleChangeProjectNav.bind(this);
+		// this.handleToggleClick = this.handleToggleClick.bind(this);
 
+	}
+
+	handleToggleClick(e){
+		this.setState({ mobileIconActive: !this.state.mobileIconActive })
 	}
 
 
@@ -61,6 +67,7 @@ class App extends Component {
 	}
 
 	render(){
+		console.log(this.state.mobileIconActive);
 		return (
 			<Router>
 				<div className="pageSections">
@@ -71,7 +78,7 @@ class App extends Component {
 						<Route path="/profile" render={() => <Profile profile={{experience: this.state.experience, education: this.state.education, skills: this.state.skills}} />} />
 						<Route path="/contact" component={Contact}/>
 					</div>
-					<Navbar />
+					<Navbar onClick={this.handleToggleClick.bind(this)}/>
 				</div>
 			</Router>
 		);
