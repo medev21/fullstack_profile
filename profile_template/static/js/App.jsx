@@ -65,7 +65,6 @@ class App extends Component {
 	}
 
 	render(){
-		console.log(this.state.mobileIconActive);
 		return (
 			<Router>
 				<div className="pageSections">

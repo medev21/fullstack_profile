@@ -5,11 +5,26 @@ class Navbar extends Component {
 
 	handleToggleClick(){
 		this.props.onClick();
+		
 	}
 
 
 	render(){
 		let iconCondition = this.props.iconCondition;
+
+		// if(iconCondition){
+		// 	document.getElementById("mobileToggleNav").style.height = "0px";
+		// 	console.log(iconCondition)
+		// }else{
+		// 	console.log(iconCondition)
+
+		// 	// document.getElementById("mobileToggleNav").style.height = "100px";
+		// }
+
+		//if true
+		// set height to 0
+		//if false
+		// set height to 100px
 
 		return (
 			<div className="navbarContainer">
@@ -46,7 +61,18 @@ class Navbar extends Component {
 							</div>
 						</div>
 					</div>
-					
+					<div className={(iconCondition) ? 'toggleNav' : 'toggleNav hide'}>
+						<Link to="/profile">
+							<h3>Profile</h3>
+						</Link>
+						<Link to="/projects" >
+							<h3>Projects</h3>
+						</Link>
+						<Link to="/contact">
+							<h3>Contact</h3>
+						</Link>
+					</div>
+						
 
 					{/*<Link to="/contact">
 						<div className="bottomNav"><div className="navBar"><h3>Contact</h3></div></div>
@@ -58,7 +84,11 @@ class Navbar extends Component {
 
 					{/*<Link to={{pathname: '/profile'}}>
 						<div className="leftNav"><div className="navBar"><h3>Profile</h3></div></div>
-					</Link>*/}
+					</Link>
+		style={{ height: iconCondition ? '0px' : '100px' }}
+		style={{ display: iconCondition ? 'none' : 'block' }}
+
+				*/}
 		      	</div>
 	      	</div>
 
