@@ -46,6 +46,19 @@ class Navbar extends Component {
 					</Link>
 		      	</div>
 
+
+		      	<div className={(iconCondition) ? 'toggleNav' : 'toggleNav hide'}>
+					<Link to="/profile">
+						<h3>Profile</h3>
+					</Link>
+					<Link to="/projects" >
+						<h3>Projects</h3>
+					</Link>
+					<Link to="/contact">
+						<h3>Contact</h3>
+					</Link>
+				</div>
+
 		      	<div className="mobileNavFrame">
 		      		<Link to="/">
 						<div className="topNav"><div className="navBar"><h3>Martin Benavides</h3></div></div>
@@ -61,17 +74,7 @@ class Navbar extends Component {
 							</div>
 						</div>
 					</div>
-					<div className={(iconCondition) ? 'toggleNav' : 'toggleNav hide'}>
-						<Link to="/profile">
-							<h3>Profile</h3>
-						</Link>
-						<Link to="/projects" >
-							<h3>Projects</h3>
-						</Link>
-						<Link to="/contact">
-							<h3>Contact</h3>
-						</Link>
-					</div>
+					
 						
 
 					{/*<Link to="/contact">
@@ -97,3 +100,17 @@ class Navbar extends Component {
 }
 
 export default Navbar;
+
+
+
+// <div className={(iconCondition) ? 'toggleNav' : 'toggleNav hide'}>
+// 						<Link to="/profile">
+// 							<h3>Profile</h3>
+// 						</Link>
+// 						<Link to="/projects" >
+// 							<h3>Projects</h3>
+// 						</Link>
+// 						<Link to="/contact">
+// 							<h3>Contact</h3>
+// 						</Link>
+// 					</div>

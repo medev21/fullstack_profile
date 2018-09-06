@@ -113,7 +113,7 @@
             }  
         }
 
-        .mobileNavFrame{display: none;}   
+        .mobileNavFrame, .toggleNav, .toggleNav.hide{display: none;}   
 
 
         .navContent {
@@ -410,8 +410,8 @@
         .pageSections{
             .navbarContainer{
                 .navFrame{ display: none;}
+                .mobileNavFrame, .toggleNav, .toggleNav.hide{display: block}
                 .mobileNavFrame{
-                    display: block;
                     z-index: 500px;
                     .bottomNav .navBar{
                         .hamburgerIcon{
@@ -580,7 +580,7 @@
                     background-color: #fff;
                     color: #000;
                     transition: 0.5s;
-                    z-index: -100;
+                    // z-index: -100;
 
                     a:hover{ color:#000;}
 
