@@ -550,9 +550,9 @@
 
                 .toggleNav{
                     position: fixed;
-                    bottom: -30px;
+                    bottom: -82px;
                     width: 100%;
-                    height: 100px;
+                    // height: 100px;
                     text-align: center;
                     background-color: #fff;
                     color: #000;
@@ -561,7 +561,11 @@
 
                     a:hover{ color:#000;}
 
-                    a h3{margin-bottom: 10px;}
+                    a h3{
+                        margin-bottom: 20px;
+                        font-size: 20px;
+                    }
+                    a h3:first-child{margin-top: 20px;}
 
                 }
 
