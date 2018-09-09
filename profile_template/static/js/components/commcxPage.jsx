@@ -18,8 +18,12 @@ class Commcx extends Component {
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
+					<ul>
+						<li><a href="https://commcx.com/" target="_blank">Link</a></li>
+					</ul>
 
-					<a onClick={this.props.history.goBack}>Back</a>
+					
+
 				</div>
 
 				<Images images={images} />
@@ -32,3 +36,5 @@ class Commcx extends Component {
 }
 
 export default Commcx
+
+// <li><a onClick={this.props.history.goBack}>Back</a></li>

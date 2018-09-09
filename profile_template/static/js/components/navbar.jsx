@@ -18,16 +18,16 @@ class Navbar extends Component {
 						<div className="topNav"><div className="navBar"><h3>Martin Benavides</h3></div></div>
 					</Link>
 
-					<Link to="/projects" >
-						<div className="rightNav"><div className="navBar"><h3>Projects</h3></div></div>
+					<Link to="/profile" >
+						<div className="rightNav"><div className="navBar"><h3>Profile</h3></div></div>
 					</Link>
 
 					<Link to="/contact">
 						<div className="bottomNav"><div className="navBar"><h3>Contact</h3></div></div>
 					</Link>
 
-					<Link to={{pathname: '/profile'}}>
-						<div className="leftNav"><div className="navBar"><h3>Profile</h3></div></div>
+					<Link to="/projects">
+						<div className="leftNav"><div className="navBar"><h3>Projects</h3></div></div>
 					</Link>
 		      	</div>
 

@@ -16,8 +16,9 @@ class Kanban extends Component {
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
-
-					<a onClick={this.props.history.goBack}>Back</a>
+					<ul>
+						<li><a href="https://kanbancard.herokuapp.com/" target="_blank">Link</a></li>
+					</ul>
 				</div>
 				<Images images={images} />
 
