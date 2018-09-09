@@ -487,88 +487,6 @@
                         }
 
                     }
-                    // display: block;
-                    // position: relative;
-                    // z-index: 1000;
-                    // .navBar{
-                    //     background: #fff;
-                    //     color: #000;
-                    //     height: 70px;
-                    //     width: 100%;
-                    //     text-align: center;
-                    //     line-height: 70px;
-                    //     position: fixed;
-                    //     display: flex;
-                    //     justify-content: center;
-                    //     align-content: center;
-                    //     flex-direction: column;
-                    // }
-
-                    // .topNav{
-                    //     .navBar{top: 0;}
-                    // }
-
-                    // .rightNav{
-                    //     .navBar{
-                    //         right: 0;
-                    //         width: 70px;
-                    //         height: 100%;
-                    //     }
-
-                    //     h3{
-                    //         /* FF3.5+ */
-                    //         -moz-transform: rotate(90deg);
-                    //         /* Opera 10.5 */
-                    //         -o-transform: rotate(90deg);
-                    //         /* Saf3.1+, Chrome */
-                    //         -webkit-transform: rotate(90deg);
-                    //         /*standard*/
-                    //         transform: rotate(90deg);
-                    //     }
-                    // }
-
-                    // .bottomNav{
-                    //     .navBar{
-                    //         bottom: 0;
-                    //     }
-                    // }
-
-                    // .leftNav{
-                    //     .navBar{
-                    //         left: 0;
-                    //         width: 70px;
-                    //         height: 100%; 
-                    //     }
-
-                    //     h3{
-                    //         /* FF3.5+ */
-                    //         -moz-transform: rotate(-90deg);
-                    //         /* Opera 10.5 */
-                    //         -o-transform: rotate(-90deg);
-                    //         /* Saf3.1+, Chrome */
-                    //         -webkit-transform: rotate(-90deg);
-                    //         /*standard*/
-                    //         transform: rotate(-90deg);
-                    //     }
-                    // } 
-
-
-                    // .toggleNav{
-                    //     position: fixed;
-                    //     bottom: 0px;
-                    //     width: 100%;
-                    //     height: 100px;
-                    //     text-align: center;
-                    //     background-color: #fff;
-                    //     color: #000;
-                    //     transition: 0.5s;
-
-                    //     a:hover{ color:#000;}
-
-                    // }
-
-                    // .toggleNav.hide{ bottom: 70px;}
-
                 }
 
                 .toggleNav{
@@ -594,25 +512,25 @@
 
                 .toggleNav.hide{ bottom: 70px;}
             }
-            // .navContent{
-            //     .defaultWrapper{
-            //         max-width: 400px;
-            //         margin-top: 50px;
-            //     }
-            //     .homeWrapper{
-            //         h2{
-            //             line-height: 40px;
-            //             font-size: 24px;
-            //         }
-            //     }
-            //     .projectWrapper{
-            //         .projectsNavbar{
-            //             max-width: 250px;
-            //             margin-bottom: 100px;
-            //             ul li {margin-right: 0;}
-            //         }
-            //     }
-            // }
+            .navContent{
+                .defaultWrapper{
+                    max-width: 800px;
+                    margin: 100px auto 200px;
+                }
+                // .homeWrapper{
+                //     h2{
+                //         line-height: 40px;
+                //         font-size: 24px;
+                //     }
+                // }
+                // .projectWrapper{
+                //     .projectsNavbar{
+                //         max-width: 250px;
+                //         margin-bottom: 100px;
+                //         ul li {margin-right: 0;}
+                //     }
+                // }
+            }
         }
     }
 
