@@ -25,12 +25,12 @@ const config = {
           loader: 'style-loader!css-loader!sass-loader' 
         },
         {
-          test: /\.(png|jpg|gif)$/,
+          test: /\.(png|jpg|gif|svg|mp4|mov)$/,
           use: [
             {
               loader: 'file-loader',
               options: {
-                name: '/images/[name]-[hash:8].[ext]'
+                name: '/assets/[name]-[hash:8].[ext]'
                 // name: 'images/[name].[ext]'
               }
             }
