@@ -22,20 +22,6 @@
                 z-index: 1000;
             }
 
-            // .navFrame .navBar, .mobileNavFrame .navBar{
-            //     background: #fff;
-            //     color: #000;
-            //     height: 70px;
-            //     width: 100%;
-            //     text-align: center;
-            //     line-height: 70px;
-            //     position: fixed;
-            //     display: flex;
-            //     justify-content: center;
-            //     align-content: center;
-            //     flex-direction: column;
-            // }
-
             .navFrame .topNav .navBar, .mobileNavFrame .topNav .navBar{
                 top: 0;
             }
@@ -46,27 +32,6 @@
             }
             
             .navFrame{
-                // display: block;
-                // position: relative;
-                // z-index: 1000;
-                // .navBar{
-                //     background: #fff;
-                //     color: #000;
-                //     height: 70px;
-                //     width: 100%;
-                //     text-align: center;
-                //     line-height: 70px;
-                //     position: fixed;
-                //     display: flex;
-                //     justify-content: center;
-                //     align-content: center;
-                //     flex-direction: column;
-                // }
-
-                // .topNav{
-                //     .navBar{top: 0;}
-                // }
-
                 .rightNav{
                     .navBar{
                         right: 0;
@@ -85,12 +50,6 @@
                         transform: rotate(90deg);
                     }
                 }
-
-                // .bottomNav{
-                //     .navBar{
-                //         bottom: 0;
-                //     }
-                // }
 
                 .leftNav{
                     .navBar{
@@ -150,13 +109,6 @@
                     justify-content: space-between;
                     flex-direction: column;
 
-                    // background-image: url("../images/work_station.png");
-                    // background-position: center;
-                    // background-repeat: no-repeat;
-                    // background-size: contain;
-                    // filter: grayscale(100%);
-
-
                     .section{
                         margin-bottom: 30px;
 
@@ -201,9 +153,9 @@
             }
 
             .projectWrapper{
+                margin-top: 100px;
                 .projectsNavbar{
                     overflow: auto;
-                    // max-width: 810px;
                     margin: 0 auto 0;
 
                     h2 {margin-bottom: 30px;}
@@ -225,18 +177,13 @@
                                         background-position: center;
                                         background-repeat: no-repeat;
                                         background-size: cover;
-                                        
                                     }
-                                    
                                 }
                             }
-
                             div.projectImg:hover{
                                 filter: none;
                             }
-
                             div.projectDesc p{ font-size: 14px;}
-
                         }
                     }
 
@@ -562,19 +509,14 @@
                         background-position: 0px 0px;
                     }
                 }
-                // .homeWrapper{
-                //     h2{
-                //         line-height: 40px;
-                //         font-size: 24px;
-                //     }
-                // }
-                // .projectWrapper{
-                //     .projectsNavbar{
-                //         max-width: 250px;
-                //         margin-bottom: 100px;
-                //         ul li {margin-right: 0;}
-                //     }
-                // }
+
+                .projectWrapper{
+                    .projectsNavbar{
+                        max-width: 250px;
+                        margin-bottom: 100px;
+                        ul li {margin-right: 0;}
+                    }
+                }
             }
         }
     }
