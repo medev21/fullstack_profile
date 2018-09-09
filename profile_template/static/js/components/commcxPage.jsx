@@ -16,14 +16,11 @@ class Commcx extends Component {
 				<div className="projectDesc">
 					<h2>Commcx</h2>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						An education platform that delivers online learning opportunities from lectures, courses, certificate programs and more.  Turned UX designs into beautiful webpages using HTML, CSS, and Javascript. 
 					</p>
 					<ul>
 						<li><a href="https://commcx.com/" target="_blank">Link</a></li>
 					</ul>
-
-					
-
 				</div>
 
 				<Images images={images} />
