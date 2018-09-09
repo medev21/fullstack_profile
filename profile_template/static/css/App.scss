@@ -81,6 +81,16 @@
             left: 70px;
             right: 70px;
 
+            .introVid{
+                position: absolute;
+                left: 0;
+                top: -70px;
+                z-index: -1;
+                width: 100%;
+                filter: grayscale(100%);
+                opacity: 0.4;
+            }
+
             .defaultWrapper{
                 max-width: 800px;
                 margin: 100px auto 0;
