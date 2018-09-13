@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import { Switch, Route, Link } from "react-router-dom";
 import ProjectNavbar from "./projectsNavbar";
 import Kanban from "./kanbanPage";
-import Worldcups from "./worldcupsPage"
-import Commcx from "./commcxPage"
+import Worldcups from "./worldcupsPage";
+import Commcx from "./commcxPage";
+import ScrollToTopOnMount from "./scrollToTop";
 
 class Projects extends Component {
 
@@ -12,6 +13,7 @@ class Projects extends Component {
 
 		return(
 			<div className="projectWrapper">
+				<ScrollToTopOnMount />
 				<div className="projectsNavbar" >
 					{this.props.location.pathname === url ? <ProjectNavbar url={url}/> : null}
 

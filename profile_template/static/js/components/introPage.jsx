@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import lonetree from "../../videos/lonetree.mp4"
+import ScrollToTopOnMount from "./scrollToTop";
 
 class Intro extends Component {
 	render(){
 
 		return(
 			<div>
+				<ScrollToTopOnMount />
 				<video className="introVid" loop autoPlay>
 					<source src={lonetree} type="video/mp4" />
 					Your browser does not support the video tag.

@@ -6,6 +6,7 @@ import Profile from "./components/profilePage";
 import Contact from "./components/contactPage";
 import Kanban from "./components/kanbanPage";
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+import ScrollToTopOnMount from "./components/scrollToTop";
 
 
 class App extends Component {
@@ -64,12 +65,17 @@ class App extends Component {
 		// console.log('hello world')
 	}
 
+	componentDidMount() {
+	    window.scrollTo(0, 0)
+	}
+
 	render(){
 		return (
 			<Router>
 				<div className="pageSections">
 					
 					<div className="navContent">
+						
 						<Route exact path="/" component={Intro}/>
 						<Route path="/projects" render={(props) => <Projects projectNav={this.handleChangeProjectNav} {...props}/>} />
 						<Route path="/profile" render={() => <Profile profile={{experience: this.state.experience, education: this.state.education, skills: this.state.skills}} />} />

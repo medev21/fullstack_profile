@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ExperienceItem from "./experienceItem";
 import EducationItem from "./educationItem";
 import SkillsItem from "./skillsItem";
+import ScrollToTopOnMount from "./scrollToTop";
 
 class Profile extends Component {
 
@@ -15,7 +16,7 @@ class Profile extends Component {
 			<div className="profileWrapper">
 
 				{/*<h2>Martin Benavides</h2>*/}
-
+				<ScrollToTopOnMount />
 				<div className="profileContainer">
 					<div className="experienceSection section">
 						<div className="profileHeader">
