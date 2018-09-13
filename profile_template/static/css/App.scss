@@ -543,5 +543,19 @@
             }
         }
     }
+}
 
+@media screen and (max-width:500px){
+    #container{
+        .pageSections{
+            .navContent{
+                .defaultWrapper{ margin: 100px 30px 200px;}
+
+                .profileWrapper{
+                    .profileContainer{padding: 0px 30px 0;}
+                }
+            }
+
+        }
+    }
 }
