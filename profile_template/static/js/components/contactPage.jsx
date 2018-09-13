@@ -7,7 +7,7 @@ class Contact extends Component {
 			<div className="defaultWrapper contactWrapper">
 				<div className="contactHeader">
 					<h2>Let's stay in touch</h2>
-					<p>I hope you learned a bit about me.  Need a developer for you projects?  Feel free to say Hi!</p>
+					<p>I hope you learned a bit about me.  Need a developer for your projects?  Feel free to say Hi!</p>
 				</div>
 
 				<div className="socialMedia">

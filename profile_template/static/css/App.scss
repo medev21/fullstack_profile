@@ -147,8 +147,9 @@
 
                 div.profileContainer::after {
                     content: "";
-                    background-image: url("../images/work_station.png");
-                    background-position: 0px -390px;
+                    background-image: url("../images/macscreen.jpg");
+                    // background-image: url("../images/work_station.png");
+                    background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
                     filter: grayscale(100%);
@@ -527,6 +528,7 @@
                         }
                     }
                     div.profileContainer::after {
+                        background-image: none;
                         background-position: 0px 0px;
                     }
                 }
