@@ -84,7 +84,7 @@
             .introVid{
                 position: absolute;
                 left: 0;
-                top: -70px;
+                top: 0px;
                 z-index: -1;
                 width: 100%;
                 filter: grayscale(100%);
@@ -275,7 +275,18 @@
         }
     }
 }
-@media screen and (max-width:1019px) and (min-width: 800px){
+
+@media screen and (max-width:1040px){
+    #container{
+        .pageSections{
+            .navContent{
+                .introVid{display: none;}
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1040px) and (min-width: 800px){
     #container{
         .pageSections{
             .navContent{
