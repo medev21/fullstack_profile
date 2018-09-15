@@ -17,7 +17,7 @@ class App extends Component {
 		  mobileIconActive: true,
 		  experience: [
 				{
-					'company': 'Groundtruth',
+					'company': 'GroundTruth',
 					'date': 'August 2016 - Present',
 					'jobTitle': 'Software Engineer'
 				},
@@ -36,7 +36,7 @@ class App extends Component {
 				{
 					'school': 'Nashville State Community College',
 					'date': ' May 2015',
-					'degree': 'Non Degree Computer Science'
+					'degree': 'Non-Degree Computer Science'
 				},
 				{
 					'school': 'Tennessee Tech University',
@@ -46,7 +46,7 @@ class App extends Component {
 			],
 			skills: [
 				{
-					'tools': 'CSS, Git, HTML, JavaScript, SQL, Python, Perl, Ruby, Scala, AutoCAD, SolidWorks, AWS(EC2/S3)'
+					'tools': 'HTML, CSS JavaScript, SQL, Python, Perl, Ruby, Scala, AutoCAD, SolidWorks, AWS(EC2/S3, Git, Linux'
 				}
 			],
 

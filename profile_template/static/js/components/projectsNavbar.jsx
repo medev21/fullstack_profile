@@ -44,7 +44,7 @@ class ProjectNavbar extends Component {
 								<div className="projectImg">
 									<Link to={`${url}/worldcups`}>
 										<div className="imgBox" style={{backgroundImage: `url(${worldcupImg})`}}></div>
-										<div><h4>worlcups</h4></div>
+										<div><h4>worldcups</h4></div>
 									</Link>
 								</div>
 								<div className="projectDesc"><p>a list of all the worlcups</p></div>
