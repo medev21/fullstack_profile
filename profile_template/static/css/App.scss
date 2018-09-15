@@ -591,6 +591,10 @@
                         margin-top: -100px;
                     }
                 }
+
+                div.contactWrapper::after {
+                    background-image: none;
+                }
             }
         }
     }
