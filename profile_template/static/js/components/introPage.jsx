@@ -9,7 +9,7 @@ class Intro extends Component {
 		return(
 			<div>
 				<ScrollToTopOnMount />
-				<video className="introVid" loop autoPlay>
+				<video className="introVid" autoplay="autoplay" loop="loop" muted id="vid">
 					<source src={lonetree} type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>
