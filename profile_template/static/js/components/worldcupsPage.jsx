@@ -15,7 +15,7 @@ class Worldcups extends Component {
 				<div className="projectDesc">
 					<h2>Worldcups</h2>
 					<p>
-						This site display a list of all the worldcups with winner and host nation. It was built using NodeJS, Bootstrap, and Javascript.
+						This site displays a list of all the worldcups with winner and host nation. It was built using NodeJS, Bootstrap, and Javascript.
 					</p>
 					<ul>
 						<li><a href="https://fifa-worldcups.herokuapp.com/" target="_blank">Link</a></li>

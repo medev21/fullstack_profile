@@ -47,7 +47,7 @@ class ProjectNavbar extends Component {
 										<div><h4>worldcups</h4></div>
 									</Link>
 								</div>
-								<div className="projectDesc"><p>a list of all the worlcups</p></div>
+								<div className="projectDesc"><p>a list of all the worldcups</p></div>
 							</div>
 						</li>
 					</ul>

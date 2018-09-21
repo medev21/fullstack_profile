@@ -46,7 +46,7 @@ class App extends Component {
 			],
 			skills: [
 				{
-					'tools': 'HTML, CSS JavaScript, SQL, Python, Perl, Ruby, Scala, AutoCAD, SolidWorks, AWS(EC2/S3, Git, Linux'
+					'tools': 'HTML, CSS JavaScript, SQL, Python, Perl, Ruby, Scala, AutoCAD, SolidWorks, AWS(EC2/S3), Git, Linux'
 				}
 			],
 
