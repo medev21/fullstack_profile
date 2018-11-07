@@ -7,6 +7,7 @@ import commcxImg from "../../images/commcx2.png";
 import kanbanImg from "../../images/kanban0.png";
 import worldcupImg from "../../images/worldcup0.png";
 import weatherScan from "../../images/weather3.png";
+import embrellaImg from "../../images/embrella0.png";
 
 class ProjectNavbar extends Component {
 
@@ -38,6 +39,17 @@ class ProjectNavbar extends Component {
 									</Link>
 								</div>
 								<div className="projectDesc"><p>a weather scan site</p></div>
+							</div>
+						</li>
+						<li>
+							<div className="projectCard">
+								<div className="projectImg">
+									<Link to={`${url}/weatherscan`}>
+										<div className="imgBox" style={{backgroundImage: `url(${embrellaImg})`}}></div>
+										<div><h4>Embrella</h4></div>
+									</Link>
+								</div>
+								<div className="projectDesc"><p>a pledge site</p></div>
 							</div>
 						</li>
 						<li>
