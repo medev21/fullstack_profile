@@ -13,9 +13,9 @@ class Kanban extends Component {
 				<div className="projectDesc">
 					<h2>Weather Scan</h2>
 					<p>
-						A weather site where you can lookup a location's current weather.<br/><br/> 
-						Tools:  React, React-Places-Autocomplete, Webpack, Maps Javascript API, OpenWeather API.
+						A weather site where you can lookup a location's current weather.
 					</p>
+					<p>Tools:  React, React-Places-Autocomplete, Webpack, Maps Javascript API, OpenWeather API.</p>
 					<ul>
 						<li><a href="https://marteenreactweatherapp.herokuapp.com/" target="_blank">Link</a></li>
 					</ul>

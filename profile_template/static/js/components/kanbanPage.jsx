@@ -14,8 +14,9 @@ class Kanban extends Component {
 				<div className="projectDesc">
 					<h2>KanbanCard</h2>
 					<p>
-						An app where you can organize your projects into boards just like Trello! This clone app was built using Ruby on Rails, Bootstrap, and jQuery.
+						An app where you can organize your projects into boards just like Trello!
 					</p>
+					<p>Tools: Ruby on Rails, Bootstrap, and JQuery</p>
 					<ul>
 						<li><a href="https://kanbancard.herokuapp.com/" target="_blank">Link</a></li>
 					</ul>

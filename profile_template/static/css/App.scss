@@ -198,7 +198,7 @@
                         }
                     }
 
-                    ul li:last-child{margin-right: 0;}
+                    ul li:nth-child(3n){margin-right: 0;}
 
                     .projectContainer{
                     }
@@ -345,7 +345,8 @@
                     .projectsNavbar{
                         max-width: 530px;
                         margin-bottom: 100px;
-                        ul li:nth-child(2){margin-right: 0;}
+                        ul li:nth-child(2n){margin-right: 0;}
+                        ul li:nth-child(3n){margin-right: 30px;}
                     }
 
                     .projectSection{
@@ -384,7 +385,9 @@
                     .projectsNavbar{
                         max-width: 530px;
                         margin-bottom: 100px;
-                        ul li:nth-child(2){margin-right: 0;}
+                        ul li:nth-child(2n){margin-right: 0;}
+                        ul li:nth-child(3n){margin-right: 30px;}
+
                     }
 
                     .projectSection{
