@@ -4,7 +4,7 @@ import weather2 from '../../images/weather2.png';
 import weather3 from '../../images/weather3.png';
 import Images from './imagesComponent';
 
-class Kanban extends Component {
+class WeatherScan extends Component {
 	render(){
 		let images = [weather1, weather2, weather3]
 		
@@ -27,4 +27,4 @@ class Kanban extends Component {
 	}
 }
 
-export default Kanban;
+export default WeatherScan;
