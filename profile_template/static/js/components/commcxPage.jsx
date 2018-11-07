@@ -4,6 +4,7 @@ import commcx1 from '../../images/commcx1.png';
 import commcx2 from '../../images/commcx2.png';
 import commcx3 from '../../images/commcx3.png';
 import Images from './imagesComponent';
+import ScrollToTopOnMount from "./scrollToTop";
 
 class Commcx extends Component {
 
@@ -13,6 +14,7 @@ class Commcx extends Component {
 
 		return(
 			<div className="projectSection">
+				<ScrollToTopOnMount />
 				<div className="projectDesc">
 					<h2>Commcx</h2>
 					<p>

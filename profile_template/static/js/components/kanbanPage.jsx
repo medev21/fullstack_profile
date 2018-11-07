@@ -4,6 +4,7 @@ import kanban2 from '../../images/kanban2.png';
 import kanban3 from '../../images/kanban3.png';
 import kanban4 from '../../images/kanban4.png';
 import Images from './imagesComponent';
+import ScrollToTopOnMount from "./scrollToTop";
 
 class Kanban extends Component {
 	render(){
@@ -11,6 +12,7 @@ class Kanban extends Component {
 		
 		return(
 			<div className="projectSection">
+				<ScrollToTopOnMount />
 				<div className="projectDesc">
 					<h2>KanbanCard</h2>
 					<p>

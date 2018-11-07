@@ -4,6 +4,7 @@ import worldcup2 from '../../images/worldcup2.png';
 import worldcup3 from '../../images/worldcup3.png';
 import worldcup4 from '../../images/worldcup4.png';
 import Images from './imagesComponent';
+import ScrollToTopOnMount from "./scrollToTop";
 
 class Worldcups extends Component {
 
@@ -12,6 +13,7 @@ class Worldcups extends Component {
 
 		return(
 			<div className="projectSection">
+				<ScrollToTopOnMount />
 				<div className="projectDesc">
 					<h2>Worldcups</h2>
 					<p>

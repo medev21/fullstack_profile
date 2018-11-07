@@ -8,6 +8,7 @@ import kanbanImg from "../../images/kanban0.png";
 import worldcupImg from "../../images/worldcup0.png";
 import weatherScan from "../../images/weather3.png";
 import embrellaImg from "../../images/embrella0.png";
+import ScrollToTopOnMount from "./scrollToTop";
 
 class ProjectNavbar extends Component {
 
@@ -16,6 +17,7 @@ class ProjectNavbar extends Component {
 
 		return(
 			<div>
+				<ScrollToTopOnMount />
 				<div className="introWrapper projectsNavbar">
 					<h2>Projects</h2>
 					<ul>
@@ -44,7 +46,7 @@ class ProjectNavbar extends Component {
 						<li>
 							<div className="projectCard">
 								<div className="projectImg">
-									<Link to={`${url}/weatherscan`}>
+									<Link to={`${url}/embrella`}>
 										<div className="imgBox" style={{backgroundImage: `url(${embrellaImg})`}}></div>
 										<div><h4>Embrella</h4></div>
 									</Link>

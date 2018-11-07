@@ -2,6 +2,7 @@ import React, { Component} from "react";
 import embrella1 from '../../images/embrella1.png';
 import embrella2 from '../../images/embrella2.png';
 import Images from './imagesComponent';
+import ScrollToTopOnMount from "./scrollToTop";
 
 class Embrella extends Component {
 	render(){
@@ -9,6 +10,7 @@ class Embrella extends Component {
 		
 		return(
 			<div className="projectSection">
+				<ScrollToTopOnMount />
 				<div className="projectDesc">
 					<h2>Embrella</h2>
 					<p>
