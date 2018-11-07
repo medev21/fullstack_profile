@@ -1,12 +1,11 @@
 import React, { Component} from "react";
 import embrella1 from '../../images/embrella1.png';
 import embrella2 from '../../images/embrella2.png';
-import embrella3 from '../../images/embrella3.png';
 import Images from './imagesComponent';
 
 class Embrella extends Component {
 	render(){
-		let images = [embrella1, embrella2, embrella3]
+		let images = [embrella1, embrella2]
 		
 		return(
 			<div className="projectSection">
