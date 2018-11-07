@@ -5,6 +5,7 @@ import Kanban from "./kanbanPage";
 import Worldcups from "./worldcupsPage";
 import Commcx from "./commcxPage";
 import WeatherScan from "./weatherScanPage";
+import Embrella from "./embrellaPage";
 import ScrollToTopOnMount from "./scrollToTop";
 
 class Projects extends Component {
@@ -24,6 +25,7 @@ class Projects extends Component {
 				<Route path={`${url}/worldcups`} component={Worldcups}/>
 				<Route path={`${url}/commcx`} component={Commcx}/>
 				<Route path={`${url}/weatherscan`} component={WeatherScan}/>
+				<Route path={`${url}/embrella`} component={Embrella}/>
 				<Route exact path={url}/>
 			</div>
 		)
