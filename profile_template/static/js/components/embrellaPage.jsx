@@ -16,8 +16,7 @@ class Embrella extends Component {
 					<p>
 						Embrella's mission is to build a community that brings victims and their support groups together to take a stand against violence towards women.
 					</p>
-					<p>Took designs from UX designer and turned into a site</p>
-					<p>Tools:  HTML, CSS, AngularJS, Flask</p>
+					<p>Tools:  HTML, CSS, AngularJS, Flask -- Designs were provided by UX Designer.</p>
 					<ul>
 						<li><a href="https://embrella-xad-site.herokuapp.com/" target="_blank">Link</a></li>
 					</ul>
