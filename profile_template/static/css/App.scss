@@ -237,7 +237,7 @@
 
             .contactWrapper{
                 overflow: auto;
-                margin-bottom: 100px;
+                // margin-bottom: 100px;
 
                 .contactHeader{
                     h2 {
@@ -312,6 +312,7 @@
                     }
     
                     .socialMedia{
+                        display: none;
                         ul {
                             list-style: none;
                             padding: 0;

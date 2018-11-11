@@ -34,9 +34,9 @@ class Contact extends Component {
 
 					<div className="socialMedia">
 						<ul>
-							<li><a href="mailto:benmarteen07@gmail.com?subject=Comments" title="Email me!"><FontAwesome name='envelope' size="3x"/></a></li>
-							<li><a href="https://www.linkedin.com/in/medev21/" target="_blank"><FontAwesome name='linkedin' size="3x"/></a></li>
-							<li><a href="https://github.com/medev21" target="_blank"><FontAwesome name='github' size="3x"/></a></li>
+							<li><a href="mailto:benmarteen07@gmail.com?subject=Comments" title="Email me!"><FontAwesome name='envelope' size="2x"/></a></li>
+							<li><a href="https://www.linkedin.com/in/medev21/" target="_blank"><FontAwesome name='linkedin' size="2x"/></a></li>
+							<li><a href="https://github.com/medev21" target="_blank"><FontAwesome name='github' size="2x"/></a></li>
 						</ul>
 					</div>
 				</div>
