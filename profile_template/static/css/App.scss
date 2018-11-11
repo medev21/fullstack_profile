@@ -284,6 +284,15 @@
                                     padding-top: 10px;
                                 }
                             }
+
+                            div.btnRow{
+                                button{
+                                    background: transparent;
+                                    color: #fff;
+                                    padding: 10px 20px;
+                                    cursor: pointer;
+                                }
+                            }
     
                             input, textarea{
                                 background: transparent;
@@ -297,7 +306,7 @@
                                 color: #fff;
                             }
 
-                            input:focus, textarea:focus{outline: 0;}
+                            input:focus, textarea:focus, button:focus{outline: 0;}
     
                         }
                     }
