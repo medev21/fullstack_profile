@@ -17,7 +17,7 @@ class WeatherScan extends Component {
 					<p>
 						A weather site where you can lookup a location's current weather.
 					</p>
-					<p>Tools:  React, React-Places-Autocomplete, Webpack, Maps Javascript API, OpenWeather API.</p>
+					<p>Tools:  React, React-Places-Autocomplete, Webpack, Google Maps Javascript API, OpenWeather API, and Unsplash API.</p>
 					<ul>
 						<li><a href="https://marteenreactweatherapp.herokuapp.com/" target="_blank">Link</a></li>
 					</ul>
