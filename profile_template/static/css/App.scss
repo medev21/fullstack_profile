@@ -251,9 +251,6 @@
                 }
 
                 .contactBody{
-                    // display: flex;
-                    // justify-content: row;
-
                     .formSection{
                         form{
                             display: flex;
@@ -281,7 +278,7 @@
                             div.textRow{
                                 textarea{
                                     width: 100%;
-                                    padding-top: 10px;
+                                    padding-top: 18px;
                                 }
                             }
 
@@ -419,6 +416,33 @@
                     .projectSection{
                         width: 600px;
                         margin-top: -100px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:799px){
+    #container{
+        .pageSections{
+            .navContent {
+                .contactWrapper{
+                    margin-bottom: 100px;
+                    .contactBody .formSection form .nameRow{
+                        .formColumn{
+                            width: 100% !important;
+                        }
+
+                        .nameColumn{
+                            float: none !important;
+                            padding-right: 0 !important;
+                        }
+
+                        .emailColumn{
+                            float: none !important;
+                            padding-left: 0 !important;
+                        }
                     }
                 }
             }

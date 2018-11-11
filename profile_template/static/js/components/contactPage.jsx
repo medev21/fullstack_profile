@@ -24,7 +24,7 @@ class Contact extends Component {
 								</div>
 							</div>
 							<div className="textRow">
-								<textarea name="message" id="usermessage" cols="10" rows="4" placeholder="Your message..."></textarea>
+								<textarea name="message" id="usermessage" cols="10" rows="4" placeholder="Message"></textarea>
 							</div>
 							<div className="btnRow">
 								<button type="submit" value="Send">Send</button>
