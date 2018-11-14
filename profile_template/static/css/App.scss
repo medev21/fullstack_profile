@@ -143,6 +143,18 @@
                         }
 
                     }
+
+                    div.socialMedia{
+                        position: fixed;
+                        top: 37%;
+                        right: 12%;
+
+                        ul li{
+                            margin-bottom: 20px;
+                        }
+
+                        ul li:last-child{margin-bottom: 0}
+                    }
                 }
 
                 div.profileContainer::after {
