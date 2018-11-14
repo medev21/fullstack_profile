@@ -32,13 +32,13 @@ class Contact extends Component {
 						</form>
 					</div>
 
-					<div className="socialMedia">
+					{/* <div className="socialMedia">
 						<ul>
 							<li><a href="mailto:benmarteen07@gmail.com?subject=Comments" title="Email me!"><FontAwesome name='envelope' size="2x"/></a></li>
 							<li><a href="https://www.linkedin.com/in/medev21/" target="_blank"><FontAwesome name='linkedin' size="2x"/></a></li>
 							<li><a href="https://github.com/medev21" target="_blank"><FontAwesome name='github' size="2x"/></a></li>
 						</ul>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		)
