@@ -17,14 +17,14 @@ class Contact extends Component {
 						<form action="https://formspree.io/benmarteen07@gmail.com" method="POST">
 							<div className="nameRow">
 								<div className="nameColumn formColumn">
-									<input className="inputName" type="text" id="fname" name="name" placeholder="Name"/>
+									<input className="inputName" type="text" id="fname" name="name" placeholder="Name" required/>
 								</div>
 								<div className="emailColumn formColumn">
-									<input className="inputEmail" type="email" id="useremail" name="_replyto" placeholder="Email"/>
+									<input className="inputEmail" type="email" id="useremail" name="_replyto" placeholder="Email" required/>
 								</div>
 							</div>
 							<div className="textRow">
-								<textarea name="message" id="usermessage" cols="10" rows="4" placeholder="Message"></textarea>
+								<textarea name="message" id="usermessage" cols="10" rows="4" placeholder="Message" required></textarea>
 							</div>
 							<div className="btnRow">
 								<button type="submit" value="Send">Send</button>
