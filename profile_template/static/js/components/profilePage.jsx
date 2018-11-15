@@ -4,6 +4,8 @@ import EducationItem from "./educationItem";
 import SkillsItem from "./skillsItem";
 import ScrollToTopOnMount from "./scrollToTop";
 import FontAwesome from "react-fontawesome";
+import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
+library.add(faFilePdf);
 
 class Profile extends Component {
 
@@ -67,7 +69,7 @@ class Profile extends Component {
 
 					<div className="socialMedia">
 						<ul>
-							<li><a href="#" title="Resume"><FontAwesome name='file' size="3x"/></a></li>
+							<li><a href="#" title="Resume"><FontAwesome icon={faFilePdf} size="3x"/></a></li>
 							<li><a href="https://www.linkedin.com/in/medev21/" target="_blank" title="Linkedin"><FontAwesome name='linkedin' size="3x"/></a></li>
 							<li><a href="https://github.com/medev21" target="_blank" title="Github"><FontAwesome name='github' size="3x"/></a></li>
 						</ul>
