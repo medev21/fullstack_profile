@@ -3,9 +3,11 @@ import ExperienceItem from "./experienceItem";
 import EducationItem from "./educationItem";
 import SkillsItem from "./skillsItem";
 import ScrollToTopOnMount from "./scrollToTop";
-import FontAwesome from "react-fontawesome";
+import { library } from '@fortawesome/fontawesome-svg-core';
 import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
-library.add(faFilePdf);
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+library.add(faFilePdf, faLinkedin, faGithub);
 
 class Profile extends Component {
 
@@ -69,9 +71,9 @@ class Profile extends Component {
 
 					<div className="socialMedia">
 						<ul>
-							<li><a href="#" title="Resume"><FontAwesome icon={faFilePdf} size="3x"/></a></li>
-							<li><a href="https://www.linkedin.com/in/medev21/" target="_blank" title="Linkedin"><FontAwesome name='linkedin' size="3x"/></a></li>
-							<li><a href="https://github.com/medev21" target="_blank" title="Github"><FontAwesome name='github' size="3x"/></a></li>
+							<li><a href="#" title="Resume"><FontAwesomeIcon icon={faFilePdf} size="3x"/></a></li>
+							<li><a href="https://www.linkedin.com/in/medev21/" target="_blank" title="Linkedin"><FontAwesomeIcon icon={faLinkedin} size="3x"/></a></li>
+							<li><a href="https://github.com/medev21" target="_blank" title="Github"><FontAwesomeIcon icon={faGithub} size="3x"/></a></li>
 						</ul>
 					</div>
 
