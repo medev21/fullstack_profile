@@ -25,7 +25,7 @@ const config = {
           loader: 'style-loader!css-loader!sass-loader' 
         },
         {
-          test: /\.(png|ico|jpg|gif|svg|mp4|mov)$/,
+          test: /\.(pdf|png|ico|jpg|gif|svg|mp4|mov)$/,
           use: [
             {
               loader: 'file-loader',
@@ -41,7 +41,8 @@ const config = {
     plugins: [
         new CopyWebpackPlugin([
             { from: './index.html', to: './index.html' },
-            { from: './images/favicon.ico', to: './assets/favicon.ico'}
+            { from: './images/favicon.ico', to: './assets/favicon.ico'},
+            { from: './files/resume.pdf', to: './assets/resume.pdf'}
         ])
     ],
     devServer: {

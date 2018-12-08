@@ -71,7 +71,7 @@ class Profile extends Component {
 
 					<div className="socialMedia">
 						<ul>
-							<li><a href="#" title="Resume"><FontAwesomeIcon icon={faFilePdf} size="3x"/></a></li>
+							<li><a href="/assets/resume.pdf" title="Resume" download><FontAwesomeIcon icon={faFilePdf} size="3x"/></a></li>
 							<li><a href="https://www.linkedin.com/in/medev21/" target="_blank" title="Linkedin"><FontAwesomeIcon icon={faLinkedin} size="3x"/></a></li>
 							<li><a href="https://github.com/medev21" target="_blank" title="Github"><FontAwesomeIcon icon={faGithub} size="3x"/></a></li>
 						</ul>
