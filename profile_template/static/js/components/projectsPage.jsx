@@ -6,6 +6,7 @@ import Worldcups from "./worldcupsPage";
 import Commcx from "./commcxPage";
 import WeatherScan from "./weatherScanPage";
 import Embrella from "./embrellaPage";
+import NotaSimple from './notasimplePage';
 import ScrollToTopOnMount from "./scrollToTop";
 
 class Projects extends Component {
@@ -26,6 +27,7 @@ class Projects extends Component {
 				<Route path={`${url}/commcx`} component={Commcx}/>
 				<Route path={`${url}/weatherscan`} component={WeatherScan}/>
 				<Route path={`${url}/embrella`} component={Embrella}/>
+				<Route path={`${url}/notasimple`} component={NotaSimple}/>
 				<Route exact path={url}/>
 			</div>
 		)

@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import { Switch, Route, Link } from "react-router-dom";
-import Kanban from "./kanbanPage";
-import Worldcups from "./worldcupsPage";
-import Commcx from "./commcxPage";
 import notasimpleImg from "../../images/notasimple.png";
 import commcxImg from "../../images/commcx2.png";
 import kanbanImg from "../../images/kanban0.png";
