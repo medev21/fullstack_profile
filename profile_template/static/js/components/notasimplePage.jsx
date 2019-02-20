@@ -17,13 +17,13 @@ class Commcx extends Component {
 			<div className="projectSection">
 				<ScrollToTopOnMount />
 				<div className="projectDesc">
-					<h2>Commcx</h2>
+					<h2>NotaSimple</h2>
 					<p>
-						An education platform that delivers online learning opportunities from lectures, courses, certificate programs and more.
+                        A simple note taking tool - Sticky Notes.
 					</p>
-					<p>Tools: HTML, CSS, JavaScript, JQuery  --Designs were provided by UX designer.</p>
+					<p>Tools: MongoDB, Express, React, Node.js (MERN), Webpack </p>
 					<ul>
-						<li><a href="https://commcx.com/" target="_blank">Link</a></li>
+						<li><a href="https://notasimplemern.herokuapp.com/" target="_blank">Link</a></li>
 					</ul>
 				</div>
 
