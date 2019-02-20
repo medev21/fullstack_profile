@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Switch, Route, Link } from "react-router-dom";
-import notasimpleImg from "../../images/notasimple.png";
+import notasimpleImg from "../../images/notasimple2.png";
 import commcxImg from "../../images/commcx2.png";
 import kanbanImg from "../../images/kanban0.png";
 import worldcupImg from "../../images/worldcup0.png";

@@ -1,8 +1,9 @@
 import React, {Component} from "react";
-import commcx0 from '../../images/commcx0.png';
-import commcx1 from '../../images/commcx1.png';
-import commcx2 from '../../images/commcx2.png';
-import commcx3 from '../../images/commcx3.png';
+import notasimple0 from '../../images/notasimple0.png';
+import notasimple1 from '../../images/notasimple1.png';
+import notasimple2 from '../../images/notasimple2.png';
+import notasimple3 from '../../images/notasimple3.png';
+import notasimple4 from '../../images/notasimple4.png'
 import Images from './imagesComponent';
 import ScrollToTopOnMount from "./scrollToTop";
 
@@ -10,7 +11,7 @@ class Commcx extends Component {
 
 	render(){
 
-		let images = [commcx0, commcx1, commcx2, commcx3]
+		let images = [notasimple0, notasimple1, notasimple2, notasimple3, notasimple4]
 
 		return(
 			<div className="projectSection">
