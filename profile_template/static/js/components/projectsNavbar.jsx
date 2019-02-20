@@ -3,6 +3,7 @@ import { Switch, Route, Link } from "react-router-dom";
 import Kanban from "./kanbanPage";
 import Worldcups from "./worldcupsPage";
 import Commcx from "./commcxPage";
+import notasimpleImg from "../../images/notasimple.png";
 import commcxImg from "../../images/commcx2.png";
 import kanbanImg from "../../images/kanban0.png";
 import worldcupImg from "../../images/worldcup0.png";
@@ -21,6 +22,17 @@ class ProjectNavbar extends Component {
 				<div className="introWrapper projectsNavbar">
 					<h2>Projects</h2>
 					<ul>
+						<li>
+							<div className="projectCard">
+								<div className="projectImg">
+									<Link to={`${url}/notasimple`}>
+										<div className="imgBox" style={{backgroundImage: `url(${notasimpleImg})`}}></div>
+										<div><h4>NotaSimple</h4></div>
+									</Link>
+								</div>
+								<div className="projectDesc"><p>Note Taking site</p></div>
+							</div>
+						</li>
 						<li>
 							<div className="projectCard">
 								<div className="projectImg">
