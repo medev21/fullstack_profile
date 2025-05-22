@@ -1,10 +1,10 @@
 // DEPENDENCIES
 import { Route, Routes} from 'react-router';
 // PAGES
-import ContactsPage from './Pages/ContactPage';
-import HomePage from './Pages/HomePage';
-import ProfilePage from './Pages/ProfilePage';
-import ProjectsPage from './Pages/ProjectsPage';
+import ContactsPage from './pages/ContactPage';
+import HomePage from './pages/HomePage';
+import ProfilePage from './pages/ProfilePage';
+import ProjectsPage from './pages/ProjectsPage';
 
 function AppRoutes() {
     return(
