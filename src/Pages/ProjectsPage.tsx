@@ -1,7 +1,16 @@
+// COMPONENTS
+import { ComingSoon } from '../components/ComingSoon';
+// DEPENDENCIES
+import Box from '@mui/material/Box';
 
 function ProjectsPage() {
     return(
-        <div>Projects page</div>
+        <Box
+            component={'main'}
+            height={'100%'}
+        >
+            <ComingSoon />
+        </Box>
     )
 }
 
