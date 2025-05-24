@@ -8,8 +8,9 @@ import { NavLink } from "react-router";
 
 function HomePage() {
     return(
-        <main
-            style={{
+        <Box
+            component={'main'}
+            sx={{
                 height: '100%',
                 overflow: 'hidden'
             }}
@@ -55,7 +56,7 @@ function HomePage() {
                 </Typography>
                 <NavLink to='/profile'>View profile</NavLink>
             </Box>
-        </main>
+        </Box>
     )
 }
 
