@@ -10,16 +10,7 @@ interface NavigationFrameProps {
 
 function NavigationFrame({ children }: NavigationFrameProps) {
 
-	// handleToggleClick(){
-	// 	this.props.onClick();
-	// }
-
-
-    // let iconCondition = this.props.iconCondition;
-
-    // TODO: MOVE THIS SOMEWHERE ELSE
     const theme = useTheme();
-    // responsive frame width: 50px on xs, 70px on sm+
     const frame = {
         xs: 50,
         sm: 70,
@@ -48,9 +39,12 @@ function NavigationFrame({ children }: NavigationFrameProps) {
                 justifyContent={'center'}
                 display={'flex'}
                 color={'black'}
+                overflow={'hidden'}
             >
                 <NavLink to="/">
-                    Martin Benavides
+                    <Typography variant='h5'>
+                        Martin Benavides
+                    </Typography>
                 </NavLink>
             </Box>
             {/* left bar */}
@@ -62,9 +56,11 @@ function NavigationFrame({ children }: NavigationFrameProps) {
                 justifyContent={'center'}
                 display={'flex'}
                 color={'black'}
+                overflow={'hidden'}
             >
                 <NavLink to="/profile" >
                     <Typography
+                        variant='h5'
                         sx={{
                             transform: 'rotate(-90deg)',
                             transformOrigin: 'center',
@@ -83,26 +79,6 @@ function NavigationFrame({ children }: NavigationFrameProps) {
             >
                 {children}
             </Box>
-            {/* <Box
-				gridRow="2"
-				gridColumn="2"
-				sx={{
-					position: 'relative',
-					overflow: 'hidden',     // clip _any_ child that spills
-				}}
-			>
-				<Box
-					sx={{
-						position: 'relative',
-						width: '100%',
-						height: '100%',
-						overflowY: 'auto',
-						overflowX: 'hidden',
-					}}
-				>
-					{children}
-				</Box>
-			</Box> */}
             {/* right bar */}
             <Box
                 gridRow="2"
@@ -112,9 +88,11 @@ function NavigationFrame({ children }: NavigationFrameProps) {
                 justifyContent={'center'}
                 display={'flex'}
                 color={'black'}
+                overflow={'hidden'}
             >
                 <NavLink to="/projects" >
                     <Typography
+                        variant='h5'
                         sx={{
                             transform: 'rotate(90deg)',
                             transformOrigin: 'center',
@@ -134,9 +112,12 @@ function NavigationFrame({ children }: NavigationFrameProps) {
                 justifyContent={'center'}
                 display={'flex'}
                 color={'black'}
+                overflow={'hidden'}
             >
-                <NavLink to="/contact" >
-                    Contact
+                <NavLink to="/contact">
+                    <Typography variant='h5'>
+                        Contact
+                    </Typography>
                 </NavLink>
             </Box>
         </Box>

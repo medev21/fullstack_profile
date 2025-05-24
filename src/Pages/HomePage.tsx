@@ -12,7 +12,9 @@ function HomePage() {
             component={'main'}
             sx={{
                 height: '100%',
-                overflow: 'hidden'
+                overflow: 'hidden',
+                backgroundColor: 'white',
+                color: 'black'
             }}
         >
             <Box
@@ -51,10 +53,14 @@ function HomePage() {
                 <Typography variant="h4" gutterBottom>
                     Software developer who enjoys finding solutions to complex problems in an elegant way.
                 </Typography>
-                <Typography variant="body1" mb={3}>
+                <Typography variant="h6" mb={3}>
                     Enthusiastic, motivated, and high-performing team player who is passionate about software development.
                 </Typography>
-                <NavLink to='/profile'>View profile</NavLink>
+                <NavLink to='/profile'>
+                    <Typography variant="h6">
+                        View Profile
+                    </Typography>
+                </NavLink>
             </Box>
         </Box>
     )
