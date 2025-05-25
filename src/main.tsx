@@ -1,6 +1,6 @@
 // COMPONENTS
-import App from './App.tsx'
-import NavigationFrame from "./components/NavigationFrame";
+import App from 'src/App'
+import NavigationFrame from "src/components/NavigationFrame";
 // DEPENDENCIES
 import { ThemeProvider, CssBaseline } from '@mui/material'
 import { StrictMode } from 'react'

@@ -1,7 +1,7 @@
 
 // ASSETS
 import { Typography } from "@mui/material";
-import lonetree from "../assets/videos/lonetree.mp4"
+import lonetree from "src/assets/videos/lonetree.mp4"
 // DEPENDENCIES
 import Box from '@mui/material/Box'
 import { NavLink } from "react-router";

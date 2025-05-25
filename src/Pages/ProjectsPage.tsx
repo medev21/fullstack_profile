@@ -1,5 +1,5 @@
 // COMPONENTS
-import { ComingSoon } from '../components/ComingSoon';
+import { ComingSoon } from 'src/components/ComingSoon';
 // DEPENDENCIES
 import Box from '@mui/material/Box';
 

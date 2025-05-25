@@ -1,5 +1,6 @@
 // DEPENDENCIES
 import {
+    Box,
     List,
     ListItemButton,
     ListItemIcon,
@@ -10,7 +11,6 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import Box from '@mui/material/Box'
 
 interface ContactItemProps {
     href: string,

@@ -1,7 +1,7 @@
 // ROUTES
 import AppRoutes from "./AppRoutes";
 // STYLES
-import './styles/App.scss'
+import 'src/styles/App.scss'
 
 function App() {
 	return (

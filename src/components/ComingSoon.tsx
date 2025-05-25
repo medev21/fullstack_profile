@@ -1,5 +1,5 @@
 // ASSETS
-import comingSoonImg from '../assets/comingSoon.svg'
+import comingSoonImg from 'src/assets/comingSoon.svg'
 // DEPENDENCIES
 import Box from '@mui/material/Box'
 

@@ -1,5 +1,5 @@
 // ROUTES
-import AppRoutes from "./AppRoutes";
+import AppRoutes from "src/AppRoutes";
 
 interface LayoutProps {
     children: React.ReactNode;

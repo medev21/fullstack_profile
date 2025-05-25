@@ -1,5 +1,5 @@
 // ASSSETS
-import resume from '../assets/resume.svg'
+import resume from 'src/assets/resume.svg'
 // DEPENDENCIES
 import Box from '@mui/material/Box'
 
